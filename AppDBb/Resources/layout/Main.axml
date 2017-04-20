@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+    <Button
+        android:text="Vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vibrate" />
+    <Button
+        android:text="Setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+    <Button
+        android:text="Check vote (Dialog box)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vote" />
+    <Button
+        android:text="Check vote (Toast)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toast" />
+    <Button
+        android:text="University website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/website" />
+</LinearLayout>
